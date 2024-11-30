@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    /* height: 99vh; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    /* width: 1500px; */
+    /* margin-left: 8px; */
+}
+
+.box2 {
+    /* height: 99vh;  */
+    background-color: rgb(62, 151, 123);
+    width: 30%;
+
+}
+
+.box1 {
+    background-color: white;
+    height: 99vh;
+    width: 80%;
+
+}
+
+.open {
+    display: flex;
+    align-self: center;
+    height: 10vh;
+}
+
+.open img {
+    width: 60px;
+    object-fit: cover;
+    height: 7vh;
+    padding-left: 10px;
+    margin-top: 10px;
+
+
+}
+
+.open p {
+    position: relative;
+    top: 30px;
+    padding-left: 5px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.content {
+    margin: 13%;
+}
+
+.content h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+}
+
+.content p {
+    margin-left: 30px;
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgb(145, 125, 99);
+}
+
+.ola {
+    display: flex;
+    margin-left: 70px;
+    margin-top: 20px;
+
+}
+
+.ola1 img {
+    width: 70px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.line {
+
+    border-top: 2px solid rgb(164, 150, 131);
+    width: 400px;
+    margin-left: 40px;
+
+}
+
+.oba1 input {
+    height: 6vh;
+    width: 400px;
+    margin-left: 10px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: none;
+    background: rgb(166, 182, 166);
+    outline: none;
+    font-size: 20px;
+}
+
+.oba2 input {
+    height: 6vh;
+    width: 400px;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    background: rgb(166, 182, 166);
+    outline: none;
+    font-size: 20px;
+
+}
+
+button {
+    background: rgb(62, 151, 123);
+    margin-top: 20px;
+    padding: 10px;
+    margin-left: 40px;
+    width: 200px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.last-section {
+    margin-top: 290px;
+    padding-left: 10px;
+}
+
+.last-section h1 {
+    color: white;
+    font-size: 70px;
+    margin-left: 25px;
+}
+
+.last-section p {
+    color: white;
+    font-weight: 20px;
+    margin-left: 25px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+}
+
+#bat {
+    background: white;
+    color: black;
+
+}
+
+/* responsiveness views */
+@media all and (max-width:430px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content h1 {
+        font-size: 3rem;
+        text-align: center;
+        width: 350px;
+    }
+
+    .content p {
+        color: black;
+        width: 280px;
+        text-decoration: underline;
+    }
+
+    .ola img {
+        width: 52px;
+    }
+
+    .line {
+        width: 100%;
+    }
+
+    .oba1 input {
+        width: 300px;
+    }
+
+    .oba2 input {
+        width: 300px;
+    }
+
+    .box2 {
+        display: none;
+    }
+}
